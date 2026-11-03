@@ -1,4 +1,3 @@
-
 <!-- Every HTML document begins with a DOCTYPE declaration, which is a special line placed at the very top of the file. The DOCTYPE tells the browser the document uses modern HTML standards and helps it interpret the page before reading any content. -->
 <!DOCTYPE html>
 
@@ -24,8 +23,9 @@
   <!-- Heading elements are used to create titles and subtitles that organize content into clear sections. Headings help readers quickly understand what a page is about and make it easier to scan for important information. -->
   <!-- The paragraph element is used to define a block of regular text content on a web page, such as sentences or short groups of related sentences. Paragraphs are typically used for explanations, descriptions, or any body text that is not a heading or list. -->
 <h1> HTML Fundamentals </h1>
-< p> This is an example of a paragraph element. </p>
-< p> Below this paragraph: Lists (ordered and unordered). </p>
+<section></section>
+<p> This is an example of a paragraph element.</p>
+<p><strong><em>Lists (ordered and unordered).</em></strong> </p>
 
   <ul>
   <li>Bread</li>
@@ -40,20 +40,34 @@
   <li>Press the slices together</li>
   </ol>
 	
-<p> Below this paragraph: There are examples of Text formatting. </p>
-	<p> Use the strong element when the text is especially important and should stand out to the reader. Browsers typically display text inside <strong> in bold, which helps draw attention to warnings, labels, or critical information. </p>
-	<p>The emphasis element stresses a word or phrase within a sentence. Browsers typically display text inside <em> in italics, which helps highlight emphasis or meaning without interrupting the flow of text. </p>
+<p> <strong><em>Text formatting. </em></strong></p>
+	<p> Use the strong element when the text is especially important and should stand out to the reader. Browsers typically display text inside (strong) in <strong>bold</strong>, which helps draw attention to warnings, labels, or critical information. <br>
+	    The emphasis element (em) stresses a word or phrase within a sentence. Browsers typically display the text inside in italics, which helps highlight emphasis or meaning without interrupting the flow of text. 
+  </p>
 <p><strong><em>Important:</em></strong> "Important" is emphasizesed and in Bold.</p>
-	<p> Further, above is also an example of inline elements; notice how the <strong> and <em> elements appear in the previous paragraph versus on their own line. </p> 
-	<p> They appear within surrounding text and take up only as much space as their content requires. The formatting elements you learned earlier, such as <strong>, <em>, and <br>, are inline elements. </p>
-	<p> The line break element (<br>) moves text to a new line without starting a new paragraph. It creates a line break within the same block of text, without adding the extra spacing that comes with a new paragraph.</p>
+	<p> Further, above is an example of inline elements (as is this line); these elements appear within surrounding text and take up only as much space as their content requires, so they appear in the paragraph they are placed in instead of on their own line. </p> 
+	<p> They appear within surrounding text and take up only as much space as their content requires. The formatting elements that are above are inline elements. </p>
+
+	<p> The line break element moves text to a new line without starting a new paragraph. It creates a line break within the same block of text, without adding the extra spacing that comes with a new paragraph.</p>
 		<p>
 		This is how you take a paragraph<br>
 		break it up.<br> 
 		and put it on multiple<br>
 		lines, vs. just one.
 		</p>
+<p> HTML provides six levels of headings, from (h1) (the most important heading on the page) to (h6) (the least important). These levels show the relative importance of sections and how content is structured.<br>
+  Each heading level displays in a progressively smaller size by default.
+  </p>
+<h1>Main Title</h1>
+<h2>Major Section</h2>
+<h3>Subsection</h3>
+<h4>Sub-subsection</h4>
+<h5>Minor Heading</h5>
+<h6>Smallest Heading</h6>
 
+<p><strong><em>Semantics</em></strong></p>
+<p>A semantic element is an HTML element whose tag name communicates the role or purpose of its content rather than simply affecting how it appears on the page. In other words, meaningful names to elements versus div soup. </p>
+</section>
 </head>
 
   
